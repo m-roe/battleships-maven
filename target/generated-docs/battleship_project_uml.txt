@@ -1,0 +1,137 @@
+@startuml
+
+class battleship.BattleShipsMain {
+	{method}  {static} +main ( paramString;1 : [Ljava.lang.String; ) : void
+}
+
+
+class battleship.BattleshipsConfig {
+	{field} {static} +BATTLESHIP_NO : int
+	{field} {static} +DEBUGGER : boolean
+	{field} {static} +FIELD_SIZE : int
+	{field} {static} +LIFES : int
+	{field} {static} +SHIP_SHAPES : [Ljava.lang.String;
+}
+
+
+class battleship.controller.BattleshipsInput {
+	{method}  {static} +consoleInputInt () : int
+	{method}  {static} +consoleInputStr () : String
+}
+
+
+class battleship.controller.BattleshipsNavigator {
+	{field} ~possiblePositions : int
+	{field} ~userInput : String
+	{method} -checkGameState () : boolean
+	{method} -checkUserSuccess () : boolean
+	{method} -processUserInput ( paramString1 : String ) : void
+	{method} -requestPositionInput () : String
+	{method} +setupBattleshipGame () : void
+	{method} -showCurrentGame () : void
+	{method} -showUserMenu () : void
+}
+
+
+class battleship.model.Battleship {
+	{field} ~battleshipPositions : [[I
+	{field} ~customShape : String
+	{field} ~isVisible : boolean
+	{field} ~shipShapes : [Ljava.lang.String;
+	{method} +getBattleshipVisibility () : boolean
+	{method} +getShape () : String
+	{method} +setBattleshipVisibility ( paramboolean1 : boolean ) : void
+	{method} -setRandomShape () : void
+	{method} -setShape ( paramString1 : String ) : void
+	{method} +showBattleship () : void
+}
+
+
+class battleship.model.BattleshipsFleet {
+	{field} ~battleshipNumber : int
+	{field} ~battleships : java.util.ArrayList
+	{field} ~debugger : boolean
+	{field} ~fleetMap : [[Ljava.lang.String;
+	{field} ~fleetPositionMatrix : [[Lbattleship.model.Battleship;
+	{field} ~possiblePositions : int
+	{method} +buildBattleshipFleet () : void
+	{method} +checkHitShip ( paramint1 : int , paramint2 : int ) : boolean
+	{method} +getShipSymbol ( paramint1 : int , paramint2 : int ) : String
+	{method} -setBattleshipPosition () : [[I
+}
+
+
+class battleship.model.BattleshipsUser {
+	{field} +hitFields : java.util.ArrayList
+	{field} ~lifes : int
+	{method} -addField ( paramString1 : String ) : void
+	{method} -addLife ( paramint1 : int ) : void
+	{method} +failed () : void
+	{method} +getLifeCount () : int
+	{method} +hasLifes () : boolean
+	{method} -removeLife ( paramint1 : int ) : void
+	{method} +succeeded ( paramString1 : String ) : void
+}
+
+
+class battleship.util.Printer {
+	{method}  {static} +printColumnTitle ( paramString1 : String ) : void
+	{method}  {static} +printColumnTitle ( paramchar1 : char ) : void
+	{method}  {static} +printEmptyCell () : void
+	{method}  {static} +printEmptySpace () : void
+	{method}  {static} +printEndMsg ( paramboolean1 : boolean ) : void
+	{method}  {static} +printFieldInfo () : void
+	{method}  {static} +printFilledCell ( paramString1 : String ) : void
+	{method}  {static} +printFilledCell ( paramchar1 : char ) : void
+	{method}  {static} +printGameTitle () : void
+	{method}  {static} +printHits ( paramArrayList1 : java.util.ArrayList ) : void
+	{method}  {static} +printHorizontalSeparator ( paramint1 : int ) : void
+	{method}  {static} +printInvisibleVerticalSeparator () : void
+	{method}  {static} +printLifes ( paramint1 : int ) : void
+	{method}  {static} +printRowTitle ( paramString1 : String ) : void
+	{method}  {static} +printRowTitle ( paramchar1 : char ) : void
+	{method}  {static} +printTitleSeparator () : void
+	{method}  {static} +printVisibleVerticalSeparator () : void
+	{method}  {static} +userInputError () : void
+}
+
+
+class battleship.util.RandomNumbers {
+	{method}  {static} +generateRandomIntIntRange ( paramint1 : int , paramint2 : int ) : int
+}
+
+
+class battleship.util.Transformer {
+	{method}  {static} +transformNumericInput ( paramString1 : String ) : int
+	{method}  {static} +transformStringInput ( paramString1 : String ) : int
+}
+
+
+class battleship.view.BattleshipsField {
+	{field} +actualFields : int
+	{field} +battleshipNumber : int
+	{field} +debugMode : boolean
+	{field} +fieldSize : int
+	{field} +hitFields : java.util.ArrayList
+	{method} -setBattleFieldRows ( paramint1 : int ) : void
+	{method} -setColumnHeaderCell () : void
+	{method} -setFieldRow ( paramint1 : int ) : void
+	{method} -setHeaderRow () : void
+	{method} -setRowCells ( paramint1 : int ) : void
+	{method} -setRowHeader ( paramint1 : int ) : void
+	{method} +setupBattleField () : void
+	{method} -setupBattleFieldMatrix () : void
+	{method} -transform2RowHeaderTitle ( paramint1 : int ) : String
+	{method} -traverseColumnHeaderTitle ( paramchar1 : char , paramint2 : int ) : void
+}
+
+
+
+
+battleship.controller.BattleshipsNavigator -->  battleship.model.BattleshipsFleet : fleet
+battleship.controller.BattleshipsNavigator -->  battleship.model.BattleshipsUser : newUser
+battleship.controller.BattleshipsNavigator -->  battleship.view.BattleshipsField : battleField
+battleship.view.BattleshipsField -->  battleship.model.BattleshipsFleet : fleet
+
+
+@enduml

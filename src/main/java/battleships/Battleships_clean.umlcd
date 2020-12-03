@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_zz1EECaaEeufV6DUtySNPg">
+  <modelElement href="Battleships_clean.uml#_0G1foCaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1MtikCaaEeufV6DUtySNPg" targetItem="_1MuJoCaaEeufV6DUtySNPg" sourceItem="_1Mnb8CaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1NF9ECaaEeufV6DUtySNPg" targetItem="_1NLcsiaaEeufV6DUtySNPg" sourceItem="_1M5IwCaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1NKOgCaaEeufV6DUtySNPg" sourceAnchor="300.0,106.0" targetAnchor="0.0,116.0" target="_1Ql9ACaaEeufV6DUtySNPg" source="_1NLcsiaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LIw0CaaEeufV6DUtySNPg"/>
+    <stereotypes xmi:id="_1NKOgSaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LJX4CaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1NKOgiaaEeufV6DUtySNPg" text="">
+      <visualProperties xmi:id="_1iMqYCaaEeufV6DUtySNPg" position="-11.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1NKOgyaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LIw0SaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iMDUCaaEeufV6DUtySNPg" position="12.0,2.0"/>
+      <visibility xmi:id="_1NKOhCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1NKOhSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1NKOhiaaEeufV6DUtySNPg" aggregationKind="NONE" name="fleet" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0Kq2wCaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iNRcCaaEeufV6DUtySNPg" position="-54.0,-47.0"/>
+      <visibility xmi:id="_1NKOhyaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NKOiCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1NLcoCaaEeufV6DUtySNPg" sourceAnchor="150.0,213.0" targetAnchor="0.0,173.0" target="_1S0xoCaaEeufV6DUtySNPg" source="_1NLcsiaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LJX4SaaEeufV6DUtySNPg"/>
+    <bendpoints xmi:id="_muyNgCanEeufV6DUtySNPg" sourceY="322" targetX="-227"/>
+    <stereotypes xmi:id="_1NLcoSaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LJ-8CaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1NLcoiaaEeufV6DUtySNPg" text="">
+      <visualProperties xmi:id="_1iOfkCaaEeufV6DUtySNPg" position="41.00000000000003,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1NLcoyaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LJX4iaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iN4gCaaEeufV6DUtySNPg" position="2.0,35.375"/>
+      <visibility xmi:id="_1NLcpCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1NLcpSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1NLcpiaaEeufV6DUtySNPg" aggregationKind="NONE" name="battleField" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0Krd0SaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iOfkSaaEeufV6DUtySNPg" position="-109.75,-47.0"/>
+      <visibility xmi:id="_1NLcpyaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NLcqCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1NLcqSaaEeufV6DUtySNPg" sourceAnchor="149.0,0.0" targetAnchor="121.0,251.0" target="_1Rzd8CaaEeufV6DUtySNPg" source="_1NLcsiaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LKmACaaEeufV6DUtySNPg"/>
+    <stereotypes xmi:id="_1NLcqiaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LLNECaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1NLcqyaaEeufV6DUtySNPg" text="">
+      <visualProperties xmi:id="_1iPtsCaaEeufV6DUtySNPg" position="2.0,-16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1NLcrCaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LKmASaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iPGoCaaEeufV6DUtySNPg" position="-17.0,-70.0"/>
+      <visibility xmi:id="_1NLcrSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1NLcriaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1NLcryaaEeufV6DUtySNPg" aggregationKind="NONE" name="newUser" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0KsE4SaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iPtsSaaEeufV6DUtySNPg" position="-62.00000000000003,24.0"/>
+      <visibility xmi:id="_1NLcsCaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NLcsSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1Nqk0CaaEeufV6DUtySNPg" targetItem="_1NuPMCaaEeufV6DUtySNPg" sourceItem="_1NflsCaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1OKUECaaEeufV6DUtySNPg" targetItem="_1OMwUCaaEeufV6DUtySNPg" sourceItem="_1N7DgCaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1O2QkCaaEeufV6DUtySNPg" targetItem="_1O-MYCaaEeufV6DUtySNPg" sourceItem="_1Olx4CaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1PmegCaaEeufV6DUtySNPg" targetItem="_1PqI4CaaEeufV6DUtySNPg" sourceItem="_1PQgQCaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1PnFkCaaEeufV6DUtySNPg" sourceAnchor="177.0,0.0" targetAnchor="172.0,270.0" target="_1PqI4CaaEeufV6DUtySNPg" source="_1Ql9ACaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LL0ISaaEeufV6DUtySNPg"/>
+    <stereotypes xmi:id="_1Po6wyaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LMbMCaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1Po6wCaaEeufV6DUtySNPg" text="">
+      <visualProperties xmi:id="_1iQ70CaaEeufV6DUtySNPg" position="2.0,-35.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1Po6wSaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LL0IiaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iQUwCaaEeufV6DUtySNPg" position="2.0,-72.0"/>
+      <visibility xmi:id="_1Pph0SaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Pph0CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1Po6wiaaEeufV6DUtySNPg" aggregationKind="NONE" name="fleetPositionMatrix" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0KwWUSaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iSJ8CaaEeufV6DUtySNPg" position="-116.0,27.0"/>
+      <stereotypes xmi:id="_1Pph1CaaEeufV6DUtySNPg" name="Array">
+        <modelElement href="Battleships_clean.uml#_0KwWUyaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Pph1SaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0Kw9YCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Pph0yaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Pph0iaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1QG00CaaEeufV6DUtySNPg" sourceAnchor="165.0,0.0" targetAnchor="159.0,232.0" target="_1Ql9ACaaEeufV6DUtySNPg" source="_1S0xoCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LNpUSaaEeufV6DUtySNPg"/>
+    <stereotypes xmi:id="_1QkH0yaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LNpUyaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1QkH0CaaEeufV6DUtySNPg" text="">
+      <visualProperties xmi:id="_1iT_ICaaEeufV6DUtySNPg" position="-43.5,-1.7777777777778283"/>
+    </nameVisual>
+    <sourceRole xmi:id="_1QkH0SaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LNpUiaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iTYECaaEeufV6DUtySNPg" position="2.5,-69.25"/>
+      <visibility xmi:id="_1Qku4SaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Qku4CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1QkH0iaaEeufV6DUtySNPg" aggregationKind="NONE" name="fleet" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0K3EASaaEeufV6DUtySNPg"/>
+      <visualProperties xmi:id="_1iUmMCaaEeufV6DUtySNPg" position="2.5,24.25"/>
+      <stereotypes xmi:id="_1Qku5CaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0K3rECaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Qku4yaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Qku4iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1QiSoCaaEeufV6DUtySNPg" source="_1Ql9ACaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LLNESaaEeufV6DUtySNPg"/>
+    <stereotypes xmi:id="_1QkH1yaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LL0ICaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1QkH1CaaEeufV6DUtySNPg" text=""/>
+    <sourceRole xmi:id="_1QkH1SaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LLNEiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1QlV8CaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Qku5SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1QkH1iaaEeufV6DUtySNPg" aggregationKind="NONE" name="battleships" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0KvvQCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1QlV8iaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1QlV8SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1RG6YCaaEeufV6DUtySNPg" source="_1Rzd8CaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LMbMSaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_izKewCaiEeufV6DUtySNPg"/>
+    <stereotypes xmi:id="_1RyP0iaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LNCQCaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1RxowCaaEeufV6DUtySNPg" text=""/>
+    <sourceRole xmi:id="_1RyP0CaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LMbMiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RyP1CaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1RyP0yaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1RyP0SaaEeufV6DUtySNPg" aggregationKind="NONE" name="hitFields" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0KyLgSaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1Ry24SaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Ry24CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1SxHQCaaEeufV6DUtySNPg" targetItem="_1S0xoCaaEeufV6DUtySNPg" sourceItem="_1SO7wCaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1SxuUCaaEeufV6DUtySNPg" source="_1S0xoCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LNCQSaaEeufV6DUtySNPg"/>
+    <stereotypes xmi:id="_1SzjgyaaEeufV6DUtySNPg" name="Reference">
+      <modelElement href="Battleships_clean.uml#_0LNpUCaaEeufV6DUtySNPg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1SzjgCaaEeufV6DUtySNPg" text=""/>
+    <sourceRole xmi:id="_1SzjgSaaEeufV6DUtySNPg" aggregationKind="NONE" name="">
+      <modelElement href="Battleships_clean.uml#_0LNCQiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0KkSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0KkCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1SzjgiaaEeufV6DUtySNPg" aggregationKind="NONE" name="hitFields" navigable="true">
+      <modelElement href="Battleships_clean.uml#_0K114SaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0KkyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0KkiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1T8zACaaEeufV6DUtySNPg" targetItem="_1UN4wCaaEeufV6DUtySNPg" sourceItem="_1TfgACaaEeufV6DUtySNPg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_1Vr4YCaaEeufV6DUtySNPg" targetItem="_1V-MQCaaEeufV6DUtySNPg" sourceItem="_1VQakCaaEeufV6DUtySNPg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1Mnb8CaaEeufV6DUtySNPg" sourceConnectionVisual="_1MtikCaaEeufV6DUtySNPg" text="Class containing user input scanner from the console.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1MuJoCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LDRQiaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1NflsCaaEeufV6DUtySNPg" sourceConnectionVisual="_1Nqk0CaaEeufV6DUtySNPg" text="Class for creating a random number within a range.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1NuPMCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LDRQSaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1N7DgCaaEeufV6DUtySNPg" sourceConnectionVisual="_1OKUECaaEeufV6DUtySNPg" text="Class for printing battleship field components on the console.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1OMwUCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LD4USaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1Olx4CaaEeufV6DUtySNPg" sourceConnectionVisual="_1O2QkCaaEeufV6DUtySNPg" text="Class for transforming user input to row and column indexes of the battle field.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1O-MYCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LEfYCaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1PQgQCaaEeufV6DUtySNPg" sourceConnectionVisual="_1PmegCaaEeufV6DUtySNPg" text="Class for creating a single battleship instance.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1PqI4CaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LD4UCaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1SO7wCaaEeufV6DUtySNPg" sourceConnectionVisual="_1SxHQCaaEeufV6DUtySNPg" text="Class for building the play field.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1S0xoCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LEfYSaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1TfgACaaEeufV6DUtySNPg" sourceConnectionVisual="_1T8zACaaEeufV6DUtySNPg" text="Class containing main method which starts the game.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1UN4wCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LDRQCaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1VQakCaaEeufV6DUtySNPg" sourceConnectionVisual="_1Vr4YCaaEeufV6DUtySNPg" text="Class to encapsulate globally used variables.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1V-MQCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LD4UiaaEeufV6DUtySNPg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1Rzd8CaaEeufV6DUtySNPg" name="BattleshipsUser" associationsIn="_1NLcqSaaEeufV6DUtySNPg" associationsOut="_1RG6YCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0IFc0CaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1Rzd8SaaEeufV6DUtySNPg" position="38.0,85.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1Rzd8iaaEeufV6DUtySNPg" label="+"/>
+    <attributes xmi:id="_1Rzd8yaaEeufV6DUtySNPg" name="lifes">
+      <modelElement href="Battleships_clean.uml#_0KxkcyaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Rzd9CaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KyLgCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Rzd9SaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Rzd9iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1Rzd9yaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Rzd-CaaEeufV6DUtySNPg" name="hitFields">
+      <modelElement href="Battleships_clean.uml#_0KyLgSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Rzd-SaaEeufV6DUtySNPg" name="Generics">
+        <modelElement href="Battleships_clean.uml#_0KyykCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Rzd-iaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KyykSaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Rzd-yaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Rzd_CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1Rzd_SaaEeufV6DUtySNPg" name="ArrayList">
+        <modelElement href="Battleships_clean.uml#_0KR1MCaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1Rzd_iaaEeufV6DUtySNPg" name="BattleshipsUser">
+      <modelElement href="Battleships_clean.uml#_0IGq8CaaEeufV6DUtySNPg"/>
+      <keywords xmi:id="_1Rzd_yaaEeufV6DUtySNPg" keyword="create"/>
+      <visibility xmi:id="_1RzeACaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1RzeASaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1RzeAiaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0IGq8yaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1RzeAyaaEeufV6DUtySNPg" name="BattleshipsUser">
+          <modelElement href="Battleships_clean.uml#_0IFc0CaaEeufV6DUtySNPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1RzeBCaaEeufV6DUtySNPg" name="succeeded">
+      <modelElement href="Battleships_clean.uml#_0IHSACaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RzeBSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1RzeBiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1RzeByaaEeufV6DUtySNPg" name="input">
+        <modelElement href="Battleships_clean.uml#_0IHSASaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1RzeCCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1RzeCSaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1RzeCiaaEeufV6DUtySNPg" name="failed">
+      <modelElement href="Battleships_clean.uml#_0IH5ECaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RzeCyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1RzeDCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1RzeDSaaEeufV6DUtySNPg" name="hasLifes">
+      <modelElement href="Battleships_clean.uml#_0IH5ESaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RzeDiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1RzeDyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1RzeECaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0IH5EiaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1RzeESaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1RzeEiaaEeufV6DUtySNPg" name="getLifeCount">
+      <modelElement href="Battleships_clean.uml#_0IIgICaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RzeEyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1RzeFCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1RzeFSaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0IIgISaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1RzeFiaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1RzeFyaaEeufV6DUtySNPg" name="getHitFields">
+      <modelElement href="Battleships_clean.uml#_0IIgIiaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1RzeGCaaEeufV6DUtySNPg" name="Generics">
+        <modelElement href="Battleships_clean.uml#_0IJuQCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1RzeGSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1RzeGiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1RzeGyaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0KhFwCaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1RzeHCaaEeufV6DUtySNPg" name="ArrayList">
+          <modelElement href="Battleships_clean.uml#_0KR1MCaaEeufV6DUtySNPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1RzeHSaaEeufV6DUtySNPg" name="addLife">
+      <modelElement href="Battleships_clean.uml#_0IKVUCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RzeHiaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1RzeHyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1RzeICaaEeufV6DUtySNPg" name="newLife">
+        <modelElement href="Battleships_clean.uml#_0IKVUSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1RzeISaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1RzeIiaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1RzeIyaaEeufV6DUtySNPg" name="removeLife">
+      <modelElement href="Battleships_clean.uml#_0IK8YCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RzeJCaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1RzeJSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1RzeJiaaEeufV6DUtySNPg" name="newLife">
+        <modelElement href="Battleships_clean.uml#_0IK8YSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1RzeJyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1RzeKCaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1RzeKSaaEeufV6DUtySNPg" name="addField">
+      <modelElement href="Battleships_clean.uml#_0ILjcCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1RzeKiaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1RzeKyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1RzeLCaaEeufV6DUtySNPg" name="newField">
+        <modelElement href="Battleships_clean.uml#_0ILjcSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1RzeLSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1RzeLiaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1NLcsiaaEeufV6DUtySNPg" comments="_1M5IwCaaEeufV6DUtySNPg" targetConnectionVisual="_1NF9ECaaEeufV6DUtySNPg" name="BattleshipsNavigator" associationsOut="_1NKOgCaaEeufV6DUtySNPg _1NLcoCaaEeufV6DUtySNPg _1NLcqSaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0Hu3gCaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1NLcsyaaEeufV6DUtySNPg" position="10.0,478.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1NLctCaaEeufV6DUtySNPg" label="+"/>
+    <attributes xmi:id="_1NLctSaaEeufV6DUtySNPg" name="possiblePositions">
+      <modelElement href="Battleships_clean.uml#_0KpBkCaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1NLctiaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KpooCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1NLctyaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NLcuCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1NLcuSaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1NLcuiaaEeufV6DUtySNPg" name="userInput">
+      <modelElement href="Battleships_clean.uml#_0KqPsCaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1NLcuyaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KqPsSaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1NLcvCaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NLcvSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1NLcviaaEeufV6DUtySNPg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1NLcvyaaEeufV6DUtySNPg" name="fleet">
+      <modelElement href="Battleships_clean.uml#_0Kq2wCaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1NLcwCaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0Krd0CaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1NLcwSaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NLcwiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1NLcwyaaEeufV6DUtySNPg" name="BattleshipsFleet">
+        <modelElement href="Battleships_clean.uml#_0H-IECaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1NLcxCaaEeufV6DUtySNPg" name="battleField">
+      <modelElement href="Battleships_clean.uml#_0Krd0SaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1NLcxSaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KsE4CaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1NLcxiaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NLcxyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1NLcyCaaEeufV6DUtySNPg" name="BattleshipsField">
+        <modelElement href="Battleships_clean.uml#_0IaM8CaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1NLcySaaEeufV6DUtySNPg" name="newUser">
+      <modelElement href="Battleships_clean.uml#_0KsE4SaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1NLcyiaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KsE4iaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1NLcyyaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1NLczCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1NLczSaaEeufV6DUtySNPg" name="BattleshipsUser">
+        <modelElement href="Battleships_clean.uml#_0IFc0CaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1NLcziaaEeufV6DUtySNPg" name="BattleshipsNavigator">
+      <modelElement href="Battleships_clean.uml#_0HwssCaaEeufV6DUtySNPg"/>
+      <keywords xmi:id="_1NLczyaaEeufV6DUtySNPg" keyword="create"/>
+      <visibility xmi:id="_1NLc0CaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1NLc0SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1NLc0iaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0HwssyaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1NLc0yaaEeufV6DUtySNPg" name="BattleshipsNavigator">
+          <modelElement href="Battleships_clean.uml#_0Hu3gCaaEeufV6DUtySNPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1NLc1CaaEeufV6DUtySNPg" name="setupBattleshipGame">
+      <modelElement href="Battleships_clean.uml#_0HxTwCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1NLc1SaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1NLc1iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1NLc1yaaEeufV6DUtySNPg" name="showCurrentGame">
+      <modelElement href="Battleships_clean.uml#_0HxTwSaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1NLc2CaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1NLc2SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1NLc2iaaEeufV6DUtySNPg" name="requestUserInput">
+      <modelElement href="Battleships_clean.uml#_0HxTwiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1NLc2yaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1NLc3CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1NLc3SaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0Hx60CaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1NLc3iaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1NLc3yaaEeufV6DUtySNPg" name="processUserInput">
+      <modelElement href="Battleships_clean.uml#_0Hyh4CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1NLc4CaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1NLc4SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1NLc4iaaEeufV6DUtySNPg" name="userInput">
+        <modelElement href="Battleships_clean.uml#_0Hyh4SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1NLc4yaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1NLc5CaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1NLc5SaaEeufV6DUtySNPg" name="checkGameState">
+      <modelElement href="Battleships_clean.uml#_0HzI8CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1NLc5iaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1NLc5yaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1NLc6CaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0HzI8SaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1NLc6SaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1NLc6iaaEeufV6DUtySNPg" name="checkUserSuccess">
+      <modelElement href="Battleships_clean.uml#_0HzI8iaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1NLc6yaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1NLc7CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1NLc7SaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0HzwACaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1NLc7iaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_1M5IwCaaEeufV6DUtySNPg" sourceConnectionVisual="_1NF9ECaaEeufV6DUtySNPg" text="Class containing control flow of the game.&#xD;&#xA;&#xD;&#xA;@author Mareike Röncke&#xD;&#xA;@version 1.0, November 2020." item="_1NLcsiaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0LDRQyaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_SyI44CanEeufV6DUtySNPg" position="330.0,498.0" size="200.0,150.0" visible="false"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1Ql9ACaaEeufV6DUtySNPg" name="BattleshipsFleet" associationsIn="_1NKOgCaaEeufV6DUtySNPg _1QG00CaaEeufV6DUtySNPg" associationsOut="_1PnFkCaaEeufV6DUtySNPg _1QiSoCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0H-IECaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1Ql9ASaaEeufV6DUtySNPg" position="393.0,468.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1Ql9AiaaEeufV6DUtySNPg" label="+"/>
+    <attributes xmi:id="_1Ql9AyaaEeufV6DUtySNPg" name="battleshipNumber">
+      <modelElement href="Battleships_clean.uml#_0KuhIiaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Ql9BCaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KvIMCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Ql9BSaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Ql9BiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1Ql9ByaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Ql9CCaaEeufV6DUtySNPg" name="debugger">
+      <modelElement href="Battleships_clean.uml#_0KvIMSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Ql9CSaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KvIMiaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Ql9CiaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Ql9CyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1Ql9DCaaEeufV6DUtySNPg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Ql9DSaaEeufV6DUtySNPg" name="battleships">
+      <modelElement href="Battleships_clean.uml#_0KvvQCaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Ql9DiaaEeufV6DUtySNPg" name="Generics">
+        <modelElement href="Battleships_clean.uml#_0KvvQSaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Ql9DyaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KwWUCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Ql9ECaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Ql9ESaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1Ql9EiaaEeufV6DUtySNPg" name="ArrayList">
+        <modelElement href="Battleships_clean.uml#_0KR1MCaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Ql9EyaaEeufV6DUtySNPg" name="fleetPositionMatrix">
+      <modelElement href="Battleships_clean.uml#_0KwWUSaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1Ql9FCaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Ql9FSaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1Ql9FiaaEeufV6DUtySNPg" name="Battleship">
+        <modelElement href="Battleships_clean.uml#_0H2zUCaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Ql9FyaaEeufV6DUtySNPg" name="fleetMap">
+      <modelElement href="Battleships_clean.uml#_0Kw9YSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Ql9GCaaEeufV6DUtySNPg" name="Array">
+        <modelElement href="Battleships_clean.uml#_0Kw9YyaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1Ql9GSaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KxkcCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Ql9GiaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Ql9GyaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1Ql9HCaaEeufV6DUtySNPg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1Ql9HSaaEeufV6DUtySNPg" name="possiblePositions">
+      <modelElement href="Battleships_clean.uml#_0KxkcSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Ql9HiaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KxkciaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Ql9HyaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1Ql9ICaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1Ql9ISaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1Ql9IiaaEeufV6DUtySNPg" name="BattleshipsFleet">
+      <modelElement href="Battleships_clean.uml#_0H_9QCaaEeufV6DUtySNPg"/>
+      <keywords xmi:id="_1Ql9IyaaEeufV6DUtySNPg" keyword="create"/>
+      <visibility xmi:id="_1Ql9JCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Ql9JSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1Ql9JiaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0H_9QyaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1Ql9JyaaEeufV6DUtySNPg" name="BattleshipsFleet">
+          <modelElement href="Battleships_clean.uml#_0H-IECaaEeufV6DUtySNPg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1Ql9KCaaEeufV6DUtySNPg" name="buildBattleshipFleet">
+      <modelElement href="Battleships_clean.uml#_0IAkUCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1Ql9KSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Ql9KiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1Ql9KyaaEeufV6DUtySNPg" name="checkHitShip">
+      <modelElement href="Battleships_clean.uml#_0IBLYCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1Ql9LCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Ql9LSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1Ql9LiaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0IBLYyaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1Ql9LyaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1Ql9MCaaEeufV6DUtySNPg" name="rowIdx">
+        <modelElement href="Battleships_clean.uml#_0IBLYSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1Ql9MSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1Ql9MiaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1Ql9MyaaEeufV6DUtySNPg" name="colIdx">
+        <modelElement href="Battleships_clean.uml#_0IBLYiaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1Ql9NCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1Ql9NSaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1Ql9NiaaEeufV6DUtySNPg" name="getShipSymbol">
+      <modelElement href="Battleships_clean.uml#_0IBycCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1Ql9NyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1Ql9OCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1Ql9OSaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0ICZgCaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1Ql9OiaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1Ql9OyaaEeufV6DUtySNPg" name="rowIdx">
+        <modelElement href="Battleships_clean.uml#_0IBycSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1Ql9PCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1Ql9PSaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1Ql9PiaaEeufV6DUtySNPg" name="colIdx">
+        <modelElement href="Battleships_clean.uml#_0IByciaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1Ql9PyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1Ql9QCaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1Ql9QSaaEeufV6DUtySNPg" name="setBattleshipPosition">
+      <modelElement href="Battleships_clean.uml#_0ICZgSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1Ql9QiaaEeufV6DUtySNPg" name="Array">
+        <modelElement href="Battleships_clean.uml#_0IDAkCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1Ql9QyaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1Ql9RCaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1Ql9RSaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0ICZgiaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1Ql9RiaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1V-MQCaaEeufV6DUtySNPg" comments="_1VQakCaaEeufV6DUtySNPg" targetConnectionVisual="_1Vr4YCaaEeufV6DUtySNPg" name="BattleshipsConfig">
+    <modelElement href="Battleships_clean.uml#_0IWikCaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1V-MQSaaEeufV6DUtySNPg" position="32.0,1310.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1V-MQiaaEeufV6DUtySNPg" label="+"/>
+    <attributes xmi:id="_1V-MQyaaEeufV6DUtySNPg" defaultValue="3" name="LIFES" staticAttribute="true">
+      <modelElement href="Battleships_clean.uml#_0KzZoCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1V-MRCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1V-MRSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1V-MRiaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1V-MRyaaEeufV6DUtySNPg" defaultValue="3" name="FIELD_SIZE" staticAttribute="true">
+      <modelElement href="Battleships_clean.uml#_0KzZoiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1V-MSCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1V-MSSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1V-MSiaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1V-MSyaaEeufV6DUtySNPg" defaultValue="3" name="BATTLESHIP_NO" staticAttribute="true">
+      <modelElement href="Battleships_clean.uml#_0KzZpCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1V-MTCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1V-MTSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1V-MTiaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1V-MTyaaEeufV6DUtySNPg" defaultValue="{&quot;o&quot;, &quot;x&quot;, &quot;#&quot;, &quot;+&quot;, &quot;§&quot;}" name="SHIP_SHAPES" staticAttribute="true">
+      <modelElement href="Battleships_clean.uml#_0K0AsSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1V-MUCaaEeufV6DUtySNPg" name="Array">
+        <modelElement href="Battleships_clean.uml#_0K0AsyaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1V-MUSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1V-MUiaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1V-MUyaaEeufV6DUtySNPg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1V-MVCaaEeufV6DUtySNPg" defaultValue="true" name="DEBUGGER" staticAttribute="true">
+      <modelElement href="Battleships_clean.uml#_0K0AtSaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1V-MVSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1V-MViaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1V-MVyaaEeufV6DUtySNPg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1UN4wCaaEeufV6DUtySNPg" comments="_1TfgACaaEeufV6DUtySNPg" targetConnectionVisual="_1T8zACaaEeufV6DUtySNPg" name="BattleShipsMain">
+    <modelElement href="Battleships_clean.uml#_0Hp_ACaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1UN4wSaaEeufV6DUtySNPg" position="32.0,1243.0" size="341.0,54.0"/>
+    <visibility xmi:id="_1UN4wiaaEeufV6DUtySNPg" label="+"/>
+    <operations xmi:id="_1UN4wyaaEeufV6DUtySNPg" name="main" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0HrNICaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1UN4xCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1UN4xSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1UN4xiaaEeufV6DUtySNPg" name="args">
+        <modelElement href="Battleships_clean.uml#_0HrNISaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1UN4xyaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1UN4yCaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1O-MYCaaEeufV6DUtySNPg" comments="_1Olx4CaaEeufV6DUtySNPg" targetConnectionVisual="_1O2QkCaaEeufV6DUtySNPg" name="Transformer">
+    <modelElement href="Battleships_clean.uml#_0IYXwCaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1O-MYSaaEeufV6DUtySNPg" position="735.0,1245.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1O-MYiaaEeufV6DUtySNPg" label="+"/>
+    <operations xmi:id="_1O-MYyaaEeufV6DUtySNPg" name="transformStringInput" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IY-0CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1O-MZCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1O-MZSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1O-MZiaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0IY-0iaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1O-MZyaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1O-MaCaaEeufV6DUtySNPg" name="userInput">
+        <modelElement href="Battleships_clean.uml#_0IY-0SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1O-MaSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1O-MaiaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1O-MayaaEeufV6DUtySNPg" name="transformNumericInput" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IZl4CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1O-MbCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1O-MbSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1O-MbiaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0IZl4iaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1O-MbyaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1O-McCaaEeufV6DUtySNPg" name="userInput">
+        <modelElement href="Battleships_clean.uml#_0IZl4SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1O-McSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1O-MciaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1NuPMCaaEeufV6DUtySNPg" comments="_1NflsCaaEeufV6DUtySNPg" targetConnectionVisual="_1Nqk0CaaEeufV6DUtySNPg" name="RandomNumbers">
+    <modelElement href="Battleships_clean.uml#_0Hr0MCaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1NuPMSaaEeufV6DUtySNPg" position="736.0,1339.0" size="317.0,54.0"/>
+    <visibility xmi:id="_1NuPMiaaEeufV6DUtySNPg" label="+"/>
+    <operations xmi:id="_1NuPMyaaEeufV6DUtySNPg" name="generateRandomIntIntRange" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0HtCUCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1NuPNCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1NuPNSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1NuPNiaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0HtCUyaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1NuPNyaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1NuPOCaaEeufV6DUtySNPg" name="min">
+        <modelElement href="Battleships_clean.uml#_0HtCUSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1NuPOSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1NuPOiaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1NuPOyaaEeufV6DUtySNPg" name="max">
+        <modelElement href="Battleships_clean.uml#_0HtCUiaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1NuPPCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1NuPPSaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1MuJoCaaEeufV6DUtySNPg" comments="_1Mnb8CaaEeufV6DUtySNPg" targetConnectionVisual="_1MtikCaaEeufV6DUtySNPg" name="BattleshipsInput">
+    <modelElement href="Battleships_clean.uml#_0HtpYCaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1MuJoSaaEeufV6DUtySNPg" position="737.0,1415.0" size="318.0,54.0"/>
+    <visibility xmi:id="_1MuJoiaaEeufV6DUtySNPg" label="+"/>
+    <operations xmi:id="_1MuJoyaaEeufV6DUtySNPg" name="consoleInput" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0HuQcCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1MuJpCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1MuJpSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1MuJpiaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0HuQcSaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1MuJpyaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1PqI4CaaEeufV6DUtySNPg" comments="_1PQgQCaaEeufV6DUtySNPg" targetConnectionVisual="_1PmegCaaEeufV6DUtySNPg" name="Battleship" associationsIn="_1PnFkCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0H2zUCaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1PqI4SaaEeufV6DUtySNPg" position="398.0,73.0" size="344.0,270.0"/>
+    <visibility xmi:id="_1PqI4iaaEeufV6DUtySNPg" label="+"/>
+    <attributes xmi:id="_1PqI4yaaEeufV6DUtySNPg" name="battleshipPositions">
+      <modelElement href="Battleships_clean.uml#_0Ksr8CaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1PqI5CaaEeufV6DUtySNPg" name="Array">
+        <modelElement href="Battleships_clean.uml#_0Ksr8iaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1PqI5SaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KtTACaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1PqI5iaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1PqI5yaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1PqI6CaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1PqI6SaaEeufV6DUtySNPg" name="isVisible">
+      <modelElement href="Battleships_clean.uml#_0KtTASaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1PqI6iaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0Kt6ECaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1PqI6yaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1PqI7CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1PqI7SaaEeufV6DUtySNPg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1PqI7iaaEeufV6DUtySNPg" name="shipShapes">
+      <modelElement href="Battleships_clean.uml#_0Kt6ESaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1PqI7yaaEeufV6DUtySNPg" name="Array">
+        <modelElement href="Battleships_clean.uml#_0Kt6EyaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1PqI8CaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0Kt6FCaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1PqI8SaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1PqI8iaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_1PqI8yaaEeufV6DUtySNPg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1PqI9CaaEeufV6DUtySNPg" name="customShape">
+      <modelElement href="Battleships_clean.uml#_0KuhICaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1PqI9SaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0KuhISaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1PqI9iaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1PqI9yaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1PqI-CaaEeufV6DUtySNPg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1PqI-SaaEeufV6DUtySNPg" name="Battleship">
+      <modelElement href="Battleships_clean.uml#_0H4BcCaaEeufV6DUtySNPg"/>
+      <keywords xmi:id="_1PqI-iaaEeufV6DUtySNPg" keyword="create"/>
+      <visibility xmi:id="_1PqI-yaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1PqI_CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1PqI_SaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0H4ogiaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1PqI_iaaEeufV6DUtySNPg" name="Battleship">
+          <modelElement href="Battleships_clean.uml#_0H2zUCaaEeufV6DUtySNPg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1PqI_yaaEeufV6DUtySNPg" name="visibility">
+        <modelElement href="Battleships_clean.uml#_0H4BcSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1PqJACaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1PqJASaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1PqJAiaaEeufV6DUtySNPg" name="battleshipPositions">
+        <modelElement href="Battleships_clean.uml#_0H4BciaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1PqJAyaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_1PqJBCaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1PqJBSaaEeufV6DUtySNPg" name="showBattleship">
+      <modelElement href="Battleships_clean.uml#_0H5PkCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1PqJBiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1PqJByaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1PqJCCaaEeufV6DUtySNPg" name="getBattleshipPositions">
+      <modelElement href="Battleships_clean.uml#_0H5PkSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1PqJCSaaEeufV6DUtySNPg" name="Array">
+        <modelElement href="Battleships_clean.uml#_0H52oiaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1PqJCiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1PqJCyaaEeufV6DUtySNPg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_1PqJDCaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0H52oCaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1PqJDSaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1PqJDiaaEeufV6DUtySNPg" name="setBattleshipVisibility">
+      <modelElement href="Battleships_clean.uml#_0H6dsCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1PqJDyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1PqJECaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1PqJESaaEeufV6DUtySNPg" name="visibility">
+        <modelElement href="Battleships_clean.uml#_0H7EwCaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1PqJEiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1PqJEyaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1PqJFCaaEeufV6DUtySNPg" name="getBattleshipVisibility">
+      <modelElement href="Battleships_clean.uml#_0H7EwSaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1PqJFSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1PqJFiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1PqJFyaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0H7r0CaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1PqJGCaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1PqJGSaaEeufV6DUtySNPg" name="getShape">
+      <modelElement href="Battleships_clean.uml#_0H7r0SaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1PqJGiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1PqJGyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1PqJHCaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0H8S4CaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1PqJHSaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1PqJHiaaEeufV6DUtySNPg" name="setRandomShape">
+      <modelElement href="Battleships_clean.uml#_0H8S4SaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1PqJHyaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1PqJICaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1PqJISaaEeufV6DUtySNPg" name="setShape">
+      <modelElement href="Battleships_clean.uml#_0H858CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1PqJIiaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1PqJIyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1PqJJCaaEeufV6DUtySNPg" name="shape">
+        <modelElement href="Battleships_clean.uml#_0H858SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1PqJJSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1PqJJiaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1S0xoCaaEeufV6DUtySNPg" comments="_1SO7wCaaEeufV6DUtySNPg" targetConnectionVisual="_1SxHQCaaEeufV6DUtySNPg" name="BattleshipsField" associationsIn="_1NLcoCaaEeufV6DUtySNPg" associationsOut="_1QG00CaaEeufV6DUtySNPg _1SxuUCaaEeufV6DUtySNPg">
+    <modelElement href="Battleships_clean.uml#_0IaM8CaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1S0xoSaaEeufV6DUtySNPg" position="387.0,840.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_1S0xoiaaEeufV6DUtySNPg" label="+"/>
+    <attributes xmi:id="_1S0xoyaaEeufV6DUtySNPg" name="fieldSize">
+      <modelElement href="Battleships_clean.uml#_0K0nwSaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1S0xpCaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0K0nwiaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1S0xpSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0xpiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1S0xpyaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1S0xqCaaEeufV6DUtySNPg" name="debugMode">
+      <modelElement href="Battleships_clean.uml#_0K0nwyaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1S0xqSaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0K1O0CaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1S0xqiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0xqyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1S0xrCaaEeufV6DUtySNPg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1S0xrSaaEeufV6DUtySNPg" name="actualFields">
+      <modelElement href="Battleships_clean.uml#_0K1O0SaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1S0xriaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0K1O0iaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1S0xryaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0xsCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1S0xsSaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1S0xsiaaEeufV6DUtySNPg" name="battleshipNumber">
+      <modelElement href="Battleships_clean.uml#_0K1O0yaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1S0xsyaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0K114CaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1S0xtCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0xtSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1S0xtiaaEeufV6DUtySNPg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1S0xtyaaEeufV6DUtySNPg" defaultValue="new ArrayList&lt;String>()" name="hitFields">
+      <modelElement href="Battleships_clean.uml#_0K114SaaEeufV6DUtySNPg"/>
+      <stereotypes xmi:id="_1S0xuCaaEeufV6DUtySNPg" name="Generics">
+        <modelElement href="Battleships_clean.uml#_0K2c8CaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_1S0xuSaaEeufV6DUtySNPg" name="LegacyStyledElement">
+        <modelElement href="Battleships_clean.uml#_0K3EACaaEeufV6DUtySNPg"/>
+      </stereotypes>
+      <visibility xmi:id="_1S0xuiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0xuyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1S0xvCaaEeufV6DUtySNPg" name="ArrayList">
+        <modelElement href="Battleships_clean.uml#_0KR1MCaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_1S0xvSaaEeufV6DUtySNPg" name="fleet">
+      <modelElement href="Battleships_clean.uml#_0K3EASaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0xviaaEeufV6DUtySNPg" label="~"/>
+      <cardinality xmi:id="_1S0xvyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <type xmi:id="_1S0xwCaaEeufV6DUtySNPg" name="BattleshipsFleet">
+        <modelElement href="Battleships_clean.uml#_0H-IECaaEeufV6DUtySNPg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1S0xwSaaEeufV6DUtySNPg" name="setupBattleField">
+      <modelElement href="Battleships_clean.uml#_0IbbECaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0xwiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0xwyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1S0xxCaaEeufV6DUtySNPg" name="setupBattleFieldMatrix">
+      <modelElement href="Battleships_clean.uml#_0IcCICaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0xxSaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0xxiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1S0xxyaaEeufV6DUtySNPg" name="setBattleFieldRows">
+      <modelElement href="Battleships_clean.uml#_0IcpMCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0xyCaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0xySaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1S0xyiaaEeufV6DUtySNPg" name="rowIdx">
+        <modelElement href="Battleships_clean.uml#_0IcpMSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0xyyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0xzCaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1S0xzSaaEeufV6DUtySNPg" name="setHeaderRow">
+      <modelElement href="Battleships_clean.uml#_0IcpMiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0xziaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0xzyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1S0x0CaaEeufV6DUtySNPg" name="setColumnHeaderCell">
+      <modelElement href="Battleships_clean.uml#_0IcpMyaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0x0SaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0x0iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1S0x0yaaEeufV6DUtySNPg" name="traverseColumnHeaderTitle">
+      <modelElement href="Battleships_clean.uml#_0IdQQCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0x1CaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0x1SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1S0x1iaaEeufV6DUtySNPg" name="character">
+        <modelElement href="Battleships_clean.uml#_0IdQQSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0x1yaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0x2CaaEeufV6DUtySNPg" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1S0x2SaaEeufV6DUtySNPg" name="counter">
+        <modelElement href="Battleships_clean.uml#_0IdQQiaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0x2iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0x2yaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1S0x3CaaEeufV6DUtySNPg" name="setFieldRow">
+      <modelElement href="Battleships_clean.uml#_0Id3UCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0x3SaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0x3iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1S0x3yaaEeufV6DUtySNPg" name="rowIdx">
+        <modelElement href="Battleships_clean.uml#_0Id3USaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0x4CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0x4SaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1S0x4iaaEeufV6DUtySNPg" name="setRowHeader">
+      <modelElement href="Battleships_clean.uml#_0IeeYCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0x4yaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0x5CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1S0x5SaaEeufV6DUtySNPg" name="rowIdx">
+        <modelElement href="Battleships_clean.uml#_0IeeYSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0x5iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0x5yaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1S0x6CaaEeufV6DUtySNPg" name="transform2RowHeaderTitle">
+      <modelElement href="Battleships_clean.uml#_0IfFcCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0x6SaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0x6iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1S0x6yaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0IfFciaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1S0x7CaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1S0x7SaaEeufV6DUtySNPg" name="rowIdx">
+        <modelElement href="Battleships_clean.uml#_0IfFcSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0x7iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0x7yaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1S0x8CaaEeufV6DUtySNPg" name="setRowCells">
+      <modelElement href="Battleships_clean.uml#_0IfsgCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1S0x8SaaEeufV6DUtySNPg" label="-"/>
+      <cardinality xmi:id="_1S0x8iaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1S0x8yaaEeufV6DUtySNPg" name="rowIdx">
+        <modelElement href="Battleships_clean.uml#_0IfsgSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0x9CaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0x9SaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1S0x9iaaEeufV6DUtySNPg" name="BattleshipsField">
+      <modelElement href="Battleships_clean.uml#_0KZJ8CaaEeufV6DUtySNPg"/>
+      <keywords xmi:id="_1S0x9yaaEeufV6DUtySNPg" keyword="create"/>
+      <visibility xmi:id="_1S0x-CaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1S0x-SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1S0x-iaaEeufV6DUtySNPg">
+        <modelElement href="Battleships_clean.uml#_0KZxACaaEeufV6DUtySNPg"/>
+        <type xmi:id="_1S0x-yaaEeufV6DUtySNPg" name="BattleshipsField">
+          <modelElement href="Battleships_clean.uml#_0IaM8CaaEeufV6DUtySNPg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1S0x_CaaEeufV6DUtySNPg" name="fleet">
+        <modelElement href="Battleships_clean.uml#_0KZJ8SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1S0x_SaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1S0x_iaaEeufV6DUtySNPg" name="BattleshipsFleet">
+          <modelElement href="Battleships_clean.uml#_0H-IECaaEeufV6DUtySNPg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1OMwUCaaEeufV6DUtySNPg" comments="_1N7DgCaaEeufV6DUtySNPg" targetConnectionVisual="_1OKUECaaEeufV6DUtySNPg" name="Printer">
+    <modelElement href="Battleships_clean.uml#_0IMxkCaaEeufV6DUtySNPg"/>
+    <visualProperties xmi:id="_1OMwUSaaEeufV6DUtySNPg" position="395.0,1244.0" size="315.0,227.0"/>
+    <visibility xmi:id="_1OMwUiaaEeufV6DUtySNPg" label="+"/>
+    <operations xmi:id="_1OMwUyaaEeufV6DUtySNPg" name="printVisibleVerticalSeparator" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IN_sCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwVCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwVSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1OMwViaaEeufV6DUtySNPg" name="printInvisibleVerticalSeparator" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IN_sSaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwVyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwWCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1OMwWSaaEeufV6DUtySNPg" name="printHorizontalSeparator" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IOmwCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwWiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwWyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwXCaaEeufV6DUtySNPg" name="separatorLength">
+        <modelElement href="Battleships_clean.uml#_0IOmwSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwXSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwXiaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwXyaaEeufV6DUtySNPg" name="printEmptySpace" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IOmwiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwYCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwYSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1OMwYiaaEeufV6DUtySNPg" name="printEmptyCell" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IPN0CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwYyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwZCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1OMwZSaaEeufV6DUtySNPg" name="printFilledCell" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IPN0SaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwZiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwZyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwaCaaEeufV6DUtySNPg" name="symbol">
+        <modelElement href="Battleships_clean.uml#_0IPN0iaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwaSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwaiaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwayaaEeufV6DUtySNPg" name="printFilledCell" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IP04CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwbCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwbSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwbiaaEeufV6DUtySNPg" name="symbol">
+        <modelElement href="Battleships_clean.uml#_0IP04SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwbyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwcCaaEeufV6DUtySNPg" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwcSaaEeufV6DUtySNPg" name="printColumnTitle" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IQb8CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwciaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwcyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwdCaaEeufV6DUtySNPg" name="symbol">
+        <modelElement href="Battleships_clean.uml#_0IQb8SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwdSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwdiaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwdyaaEeufV6DUtySNPg" name="printColumnTitle" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IRDACaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMweCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMweSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMweiaaEeufV6DUtySNPg" name="symbol">
+        <modelElement href="Battleships_clean.uml#_0IRDASaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMweyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwfCaaEeufV6DUtySNPg" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwfSaaEeufV6DUtySNPg" name="printRowTitle" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IRqECaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwfiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwfyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwgCaaEeufV6DUtySNPg" name="symbol">
+        <modelElement href="Battleships_clean.uml#_0IRqESaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwgSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwgiaaEeufV6DUtySNPg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwgyaaEeufV6DUtySNPg" name="printRowTitle" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IRqEiaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwhCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwhSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwhiaaEeufV6DUtySNPg" name="symbol">
+        <modelElement href="Battleships_clean.uml#_0IRqEyaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwhyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwiCaaEeufV6DUtySNPg" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwiSaaEeufV6DUtySNPg" name="printGameTitle" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0ISRICaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwiiaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwiyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1OMwjCaaEeufV6DUtySNPg" name="printEndMsg" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IS4MCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwjSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwjiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwjyaaEeufV6DUtySNPg" name="success">
+        <modelElement href="Battleships_clean.uml#_0IS4MSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwkCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwkSaaEeufV6DUtySNPg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwkiaaEeufV6DUtySNPg" name="printLifes" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0ITfQCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwkyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwlCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwlSaaEeufV6DUtySNPg" name="lifes">
+        <modelElement href="Battleships_clean.uml#_0ITfQSaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwliaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwlyaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwmCaaEeufV6DUtySNPg" name="printTitleSeparator" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IUGUCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwmSaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwmiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1OMwmyaaEeufV6DUtySNPg" name="userInputError" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0IUtYCaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwnCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwnSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_1OMwniaaEeufV6DUtySNPg" name="printHeader" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0KiT4CaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwnyaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwoCaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwoSaaEeufV6DUtySNPg" name="lifes">
+        <modelElement href="Battleships_clean.uml#_0KiT4SaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwoiaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwoyaaEeufV6DUtySNPg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1OMwpCaaEeufV6DUtySNPg" name="hitFields">
+        <modelElement href="Battleships_clean.uml#_0KiT4iaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwpSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwpiaaEeufV6DUtySNPg" name="ArrayList">
+          <modelElement href="Battleships_clean.uml#_0KR1MCaaEeufV6DUtySNPg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1OMwpyaaEeufV6DUtySNPg" name="printHits" staticOperation="true">
+      <modelElement href="Battleships_clean.uml#_0KjiASaaEeufV6DUtySNPg"/>
+      <visibility xmi:id="_1OMwqCaaEeufV6DUtySNPg" label="+"/>
+      <cardinality xmi:id="_1OMwqSaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1OMwqiaaEeufV6DUtySNPg" name="hitFields">
+        <modelElement href="Battleships_clean.uml#_0KkJECaaEeufV6DUtySNPg"/>
+        <cardinality xmi:id="_1OMwqyaaEeufV6DUtySNPg" label="1" max="1" min="1"/>
+        <type xmi:id="_1OMwrCaaEeufV6DUtySNPg" name="ArrayList">
+          <modelElement href="Battleships_clean.uml#_0KR1MCaaEeufV6DUtySNPg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,11 @@
+battleship\model\BattleshipsFleet.class
+battleship\controller\BattleshipsInput.class
+battleship\controller\BattleshipsNavigator.class
+battleship\model\Battleship.class
+battleship\util\Printer.class
+battleship\BattleShipsMain.class
+battleship\util\Transformer.class
+battleship\BattleshipsConfig.class
+battleship\util\RandomNumbers.class
+battleship\model\BattleshipsUser.class
+battleship\view\BattleshipsField.class
