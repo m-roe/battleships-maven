@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: battleship.BattleshipsConfigTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in battleship.BattleshipsConfigTest
-ConfigShipSymbolsTest  Time elapsed: 0.022 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Please input ship symbols in the configuration file. ==> expected: <true> but was: <false>
-	at battleship.BattleshipsConfigTest.ConfigShipSymbolsTest(BattleshipsConfigTest.java:30)
-
-ConfigLifesTest  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Please input a life count greater than 0 in the configuration file. ==> expected: <true> but was: <false>
-	at battleship.BattleshipsConfigTest.ConfigLifesTest(BattleshipsConfigTest.java:22)
-
-ConfigFieldsAndShipsTest  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: There are more ships (10)than actual fields (9) defined in the configuration file. ==> expected: <true> but was: <false>
-	at battleship.BattleshipsConfigTest.ConfigFieldsAndShipsTest(BattleshipsConfigTest.java:15)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in battleship.BattleshipsConfigTest
